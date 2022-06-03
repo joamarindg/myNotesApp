@@ -1,5 +1,5 @@
 #notes{
-    border: 10px solid #ccc;
+    border: 1px solid #ccc;
     padding: 16px;
     max-width: 75%;
     margin:auto;
@@ -40,7 +40,7 @@ button, select{
     background: #3399ff;
 }
 .delete{
-    background: #ff3333;
+    background: red;
 }
 .edit,select{
     background: #339933;
