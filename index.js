@@ -2,8 +2,7 @@ let notes = [
     {
         id: new Date(),
         title: 'sample note',
-        body: 'description',
-        bgColor: 'Peach'
+        body: 'description'
     }
 ]
 
@@ -81,6 +80,7 @@ const editNote = (noteDiv, editSave=false) => {
         deleteButton.onclick=() => deleteNote(noteDiv);
     }
 }
+
 const saveNote = () => {
     const titleInput = document.querySelector('input#title');
     const bodyInput = document.querySelector('input#body');
@@ -109,10 +109,3 @@ notes.forEach(note=>{
     const noteDiv = createNoteView(note);
     noteDiv.append(noteDiv);
 })
-
-
-
-
-
-
-
